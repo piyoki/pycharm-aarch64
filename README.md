@@ -33,7 +33,6 @@ $ mv pycharm.sh pycharm && sudo chmod +x pycharm
 
 #### 3. xport the path to root and test
 
-*** replace <usrname> with your usrname \
 $ echo 'export PATH=/home/'&USER'/pycharm-2019.3.4/bin:$PATH' >> .bashrc
  
 ### How to use
