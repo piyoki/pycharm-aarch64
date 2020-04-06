@@ -1,5 +1,9 @@
 # Pycharm-aarch64
 
+## Demo
+
+![](demo.png)
+
 ## Intro
 
 PyCharm is an integrated development environment (IDE) used in computer programming, specifically for the Python language. It is developed by the Czech company JetBrains. \
