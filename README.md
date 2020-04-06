@@ -11,26 +11,26 @@ PyCharm is an integrated development environment (IDE) used in computer programm
 ### Install with a scripted provided
 $ git clone https://github.com/yqlbu/pycharm-aarch64/ \
 $ cd pycharm-aarch64 \
-$ sudo chmod +x install.sh && ./install.sh \
+$ sudo chmod +x install.sh && ./install.sh
 
 ### Install manually
 
 #### 1. Install the dependency package:
 
 $ cd ~/Downloads \
-$ sudo apt-get update && sudo apt-get install openjdk-8-jdk \
+$ sudo apt-get update && sudo apt-get install openjdk-8-jdk
 
 #### 2. Downloaded the Linux version of PyCharm community from their website, extracted the files
 
 https://www.jetbrains.com/pycharm/download/#section=linux \
  \
 $ tar -xzf pycharm-professional-2019.3.4.tar.gz && cd pycharm-2019.3.4/bin \
-$ sudo chmod +x pycharm && mv pycharm.sh pycharm \
+$ sudo chmod +x pycharm && mv pycharm.sh pycharm
 
 #### 3. export the path to root and test
 
 *** replace <usrname> with your usrname \
-$ echo 'export PATH=/home/'&USER'/pycharm-2019.3.4/bin:$PATH' >> .bashrc \
+$ echo 'export PATH=/home/'&USER'/pycharm-2019.3.4/bin:$PATH' >> .bashrc
  
 ### How to use
 
