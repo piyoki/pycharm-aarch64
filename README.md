@@ -37,7 +37,7 @@ $ echo 'export PATH=/home/'$USER'/pycharm-2019.3.4/bin:$PATH' >> .bashrc
  
 ### How to use
 
-Go to your home directory, and type "pycharm" \
+Go to your home directory and type "pycharm" \
  \
 Enjoy!
 
