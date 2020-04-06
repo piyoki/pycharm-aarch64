@@ -29,7 +29,7 @@ $ sudo apt-get update && sudo apt-get install openjdk-8-jdk
 https://www.jetbrains.com/pycharm/download/#section=linux \
  \
 $ tar -xzf pycharm-professional-2019.3.4.tar.gz && cd pycharm-2019.3.4/bin \
-$ sudo chmod +x pycharm && mv pycharm.sh pycharm
+$ mv pycharm.sh pycharm && sudo chmod +x pycharm
 
 #### 3. xport the path to root and test
 
