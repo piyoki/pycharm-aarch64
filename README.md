@@ -27,7 +27,7 @@ https://www.jetbrains.com/pycharm/download/#section=linux \
 $ tar -xzf pycharm-professional-2019.3.4.tar.gz && cd pycharm-2019.3.4/bin \
 $ sudo chmod +x pycharm && mv pycharm.sh pycharm
 
-#### 3. export the path to root and test
+#### 3. xport the path to root and test
 
 *** replace <usrname> with your usrname \
 $ echo 'export PATH=/home/'&USER'/pycharm-2019.3.4/bin:$PATH' >> .bashrc
