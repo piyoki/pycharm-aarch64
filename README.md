@@ -1,5 +1,5 @@
 # PyCharm-aarch64
-
+# ROOT-user
 ## Demo
 
 ![](demo.png)
@@ -10,30 +10,25 @@ PyCharm is an integrated development environment (IDE) used in computer programm
  \
  Check out more info [here](https://www.jetbrains.com/pycharm/)
 
-## Setup
-
-### Install with the provided shell script
-$ git clone https://github.com/yqlbu/pycharm-aarch64/ \
-$ cd pycharm-aarch64 \
-$ sudo chmod +x install.sh && ./install.sh
+## Setup :( 👇
 
 ### Install manually
 
 #### 1. Install the dependency package:
 
 $ cd ~/Downloads \
-$ sudo apt-get update && sudo apt-get install openjdk-8-jdk
+$ sudo apt-get update && sudo apt-get install openjdk-14-jdk
 
 #### 2. Downloaded the Linux version of PyCharm community from their website, extracted the files
 
-https://www.jetbrains.com/pycharm/download/#section=linux \
+https://download.jetbrains.com/python/pycharm-community-2020.3.tar.gz?_gl=1*17r1ves*_ga*MTI3MTkxOTgyOC4xNjI4MzUzMDE0*_ga_V0XZL7QHEB*MTYyOTE0OTQzOC4xMS4xLjE2MjkxNDk0NDguNTA.&_ga=2.153760376.1775587489.1629054795-1271919828.1628353014
  \
-$ tar -xzf pycharm-professional-2019.3.4.tar.gz && cd pycharm-2019.3.4/bin \
+$ tar -xzf pycharm-community-2021.3.tar.gz && cd pycharm-community-2021.3/bin \
 $ mv pycharm.sh pycharm && sudo chmod +x pycharm
 
 #### 3. xport the path to root and test
 
-$ echo 'export PATH=/home/'$USER'/pycharm-2019.3.4/bin:$PATH' >> .bashrc
+$ echo 'export PATH=/root/pycharm-community-2021.3/bin:$PATH' >> .bashrc
  
 ### How to use
 
