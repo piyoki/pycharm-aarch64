@@ -42,7 +42,7 @@ $ echo 'export PATH=/root/pycharm-community-2020.3/bin:$PATH' >> .bashrc
  
 ### How to use
 
-Go to your home directory and type "pycharm" \
+Go to pycharm-community-2020.3/bin and type "sh pycharm" \
  \
 Enjoy!
 
