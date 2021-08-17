@@ -20,7 +20,8 @@ $ chmod +x install.sh && ./install.sh
 ### Install manually
 
 #### 1. Install the dependency package:
-
+$ apt-get install sudo
+$ sudo apt-get install wget
 $ cd ~/Downloads \
 $ sudo apt-get update && sudo apt-get install openjdk-11-jdk
 
