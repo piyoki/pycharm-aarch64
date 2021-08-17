@@ -20,12 +20,14 @@ $ chmod +x install.sh && ./install.sh
 ### Install manually
 
 #### 1. Install the dependency package:
+$ apt-get update
+
 $ apt-get install sudo
 
 $ sudo apt-get install wget
 
 $ cd ~/Downloads \
-$ sudo apt-get update && sudo apt-get install openjdk-11-jdk
+$ sudo apt-get install openjdk-11-jdk
 
 #### 2. Downloaded the Linux version of PyCharm community from their website, extracted the files
 
