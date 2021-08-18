@@ -19,8 +19,7 @@ PyCharm is an integrated development environment (IDE) used in computer programm
 apt-get update
 apt-get install sudo
 sudo apt-get install wget
-cd ~/Downloads \
-sudo apt-get install openjdk-11-jdk
+sudo apt install openjdk-11-jdk
 ```
 #### 2. Downloaded the Linux version of PyCharm community from their website, extracted the files
 ```
