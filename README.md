@@ -10,12 +10,6 @@ PyCharm is an integrated development environment (IDE) used in computer programm
  \
  Check out more info [here](https://www.jetbrains.com/pycharm/)
 
-### Install with the provided shell script
-```
-git clone https://github.com/mglovers123/pycharm-aarch64/ \
-cd pycharm-aarch64 \
-chmod +x install.sh && ./install.sh
-```
 ## Setup 
 
 ### Install manually
