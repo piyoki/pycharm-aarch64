@@ -20,8 +20,6 @@ apt-get update
 
 apt-get install sudo
 
-sudo apt-get install wget
-
 sudo apt install openjdk-11-jdk
 ```
 #### 2. Downloaded the Linux version of PyCharm community from their website, extracted the files
